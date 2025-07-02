@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WildLens – Présentation Reveal.js</title>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@5/dist/theme/white.css" id="theme">
+  <style>
+    :root{
+      --beige:#f6f0e0;--brown:#3a2d1c;--green:#0d4c45;
+    }
+    .reveal{font-family:"Inter",sans-serif;background:var(--beige);color:var(--brown)}
+    h1,h2{color:var(--brown)}
+    img{border-radius:1rem;box-shadow:0 8px 18px rgba(0,0,0,.15); max-height:45vh; max-width:60%;}
+    img.small{max-height:35vh;max-width:70%}
+
+    ul{font-size:1.1em}
+  </style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- Slide 0 : Cover -->
+    <section data-auto-animate>
+      <h1>WildLens</h1>
+      <p style="font-size:1.5em">Cartographier la biodiversité ensemble</p>
+      <img src="1.png" alt="Hero" class="small">
+    </section>
+
+    <!-- Slide 1 : Crise biodiversité -->
+    <section data-auto-animate>
+      <h2>Crise de la biodiversité</h2>
+      <img src="2.png" alt="Crise" class="small">
+      <ul>
+        <li class="fragment">3–4 espèces disparaissent chaque heure (IPBES 2023)</li>
+        <li class="fragment">150–200 nouvelles espèces découvertes chaque année</li>
+        <li class="fragment">Sans données fiables, nous avançons « dans le brouillard »</li>
+      </ul>
+    </section>
+
+    <!-- Slide 2 : Défis -->
+    <section data-auto-animate>
+      <h2>Défis & conséquences</h2>
+      <img src="3.png" alt="Défis" class="small">
+      <ul>
+        <li class="fragment">Érosion accélérée → perte de services écosystémiques</li>
+        <li class="fragment">Suivi traditionnel coûteux et lent</li>
+        <li class="fragment">Participation citoyenne limitée → faible couverture</li>
+      </ul>
+    </section>
+
+    <!-- Slide 3 : Architecture -->
+    <section data-auto-animate>
+      <h2>Architecture WildLens</h2>
+      <img src="4.png" alt="Architecture" class="small">
+      <p class="fragment">Une chaîne open‑source complète : React · Express · PyTorch · PostgreSQL · Apache/SSL</p>
+    </section>
+
+    <!-- Slide 4 : Science participative -->
+    <section data-auto-animate>
+      <h2>Science participative</h2>
+      <img src="5.png" alt="Cycle participatif" class="small">
+      <ul>
+        <li class="fragment">Capture → IA identifie l'espèce</li>
+        <li class="fragment">Données ouvertes FAIR</li>
+        <li class="fragment">Chercheurs analysent → Politiques agissent</li>
+      </ul>
+    </section>
+
+    <!-- Slide 5 : Parties prenantes -->
+    <section data-auto-animate>
+      <h2>Bénéfices pour tous</h2>
+      <img src="6.png" alt="Stakeholders" class="small">
+    </section>
+
+    <!-- Slide 6 : Roadmap -->
+    <section data-auto-animate>
+      <h2>Feuille de route</h2>
+      <img src="7.png" alt="Roadmap" class="small">
+      <ul>
+        <li class="fragment">IA multi‑espèces (200)</li>
+        <li class="fragment">Capteurs LoRa</li>
+        <li class="fragment">Gamification & défis</li>
+        <li class="fragment">Alertes invasives</li>
+        <li class="fragment">Interopérabilité GBIF / iNat / eBird</li>
+      </ul>
+    </section>
+
+    <!-- Slide 7 : Call to action -->
+    <section data-auto-animate>
+      <h2>Agissons ensemble !</h2>
+      <img src="8.png" alt="CTA" class="small">
+      <p class="fragment" style="font-size:1.3em">Partagez vos photos, validez les observations, contribuez à la carte mondiale.</p>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://unpkg.com/reveal.js@5/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: true,
+    controls: true,
+    progress: true,
+    transition: 'fade',
+    width: 1280,
+    height: 720,
+    backgroundTransition: 'fade'
+  });
+</script>
+</body>
+</html>
