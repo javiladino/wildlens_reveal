@@ -1,6 +1,6 @@
-# -------------------------------------------------------------------
+## Presentation WildLens - OpenInnov - v.1
 
-## 1. Ouverture émotionnelle : pourquoi c’est crucial ?
+## 1. Ouverture : pourquoi c’est crucial ?
 
 **Message**
 
